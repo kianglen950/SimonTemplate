@@ -24,6 +24,8 @@ namespace SimonSays
         SoundPlayer blueSound = new SoundPlayer(Properties.Resources.blue);
         SoundPlayer mistakeSound = new SoundPlayer(Properties.Resources.mistake);
 
+        int x = 8;
+
         public GameScreen()
         {
             InitializeComponent();
