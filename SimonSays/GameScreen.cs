@@ -23,6 +23,7 @@ namespace SimonSays
         SoundPlayer yellowSound = new SoundPlayer(Properties.Resources.yellow);
         SoundPlayer blueSound = new SoundPlayer(Properties.Resources.blue);
         SoundPlayer mistakeSound = new SoundPlayer(Properties.Resources.mistake);
+
         public GameScreen()
         {
             InitializeComponent();
