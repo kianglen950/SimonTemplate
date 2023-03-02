@@ -23,8 +23,10 @@ namespace SimonSays
         SoundPlayer yellowSound = new SoundPlayer(Properties.Resources.yellow);
         SoundPlayer blueSound = new SoundPlayer(Properties.Resources.blue);
         SoundPlayer mistakeSound = new SoundPlayer(Properties.Resources.mistake);
+        
 
         int x = 8;
+       
 
         public GameScreen()
         {
@@ -181,11 +183,13 @@ namespace SimonSays
 
         }
 
-    public void GameOver()
+    public async void GameOver()
 
         { 
-            mistakeSound.Play();
+           
+
             Form1.ChangeScreen(this, new GameOverScreen());
+            await Task.Delay(150);
         //TODO: Play a game over sound
 
         //TODO: close this screen and open the GameOverScreen

@@ -109,6 +109,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\Andy Bold.ttf" />
+    <None Include="Resources\andy-bold_FMewO.zip" />
     <None Include="Resources\blue.wav" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +127,42 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\SimonSaysImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EoC_Expert_Roar.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EyeOfCthulhu.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EOC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EOC1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EOC2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\01 - Title Screen.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\44-Moon-Lord.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TerrariaFont.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\terraria background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Underworld_background_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\underworld.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

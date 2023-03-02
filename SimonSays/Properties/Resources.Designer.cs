@@ -63,9 +63,56 @@ namespace SimonSays.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
         /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _01___Title_Screen {
+            get {
+                return ResourceManager.GetStream("_01___Title_Screen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream _44_Moon_Lord {
+            get {
+                return ResourceManager.GetStream("_44_Moon_Lord", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Andy_Bold_tts {
+            get {
+                object obj = ResourceManager.GetObject("Andy_Bold.tts", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
         internal static System.IO.UnmanagedMemoryStream blue {
             get {
                 return ResourceManager.GetStream("blue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EOC {
+            get {
+                object obj = ResourceManager.GetObject("EOC", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.IO.UnmanagedMemoryStream similar to System.IO.MemoryStream.
+        /// </summary>
+        internal static System.IO.UnmanagedMemoryStream EoC_Expert_Roar {
+            get {
+                return ResourceManager.GetStream("EoC_Expert_Roar", resourceCulture);
             }
         }
         
@@ -75,6 +122,16 @@ namespace SimonSays.Properties {
         internal static System.IO.UnmanagedMemoryStream green {
             get {
                 return ResourceManager.GetStream("green", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_removebg_preview__2_ {
+            get {
+                object obj = ResourceManager.GetObject("image_removebg_preview__2_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
             }
         }
         
@@ -102,6 +159,26 @@ namespace SimonSays.Properties {
         internal static System.Drawing.Bitmap SimonSaysImage {
             get {
                 object obj = ResourceManager.GetObject("SimonSaysImage", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap terraria_background {
+            get {
+                object obj = ResourceManager.GetObject("terraria_background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap underworld {
+            get {
+                object obj = ResourceManager.GetObject("underworld", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

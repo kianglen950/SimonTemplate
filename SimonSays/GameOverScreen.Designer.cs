@@ -32,6 +32,8 @@
             this.patternLabel = new System.Windows.Forms.Label();
             this.lengthLabel = new System.Windows.Forms.Label();
             this.closeButton = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
+            this.highScoreLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // gameOverLabel
@@ -79,17 +81,38 @@
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(194, 416);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "label1";
+            // 
+            // highScoreLabel
+            // 
+            this.highScoreLabel.AutoSize = true;
+            this.highScoreLabel.ForeColor = System.Drawing.Color.White;
+            this.highScoreLabel.Location = new System.Drawing.Point(198, 279);
+            this.highScoreLabel.Name = "highScoreLabel";
+            this.highScoreLabel.Size = new System.Drawing.Size(0, 20);
+            this.highScoreLabel.TabIndex = 5;
+            // 
             // GameOverScreen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
+            this.BackgroundImage = global::SimonSays.Properties.Resources.underworld;
+            this.Controls.Add(this.highScoreLabel);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.lengthLabel);
             this.Controls.Add(this.patternLabel);
             this.Controls.Add(this.gameOverLabel);
             this.Name = "GameOverScreen";
-            this.Size = new System.Drawing.Size(452, 462);
+            this.Size = new System.Drawing.Size(435, 435);
             this.Load += new System.EventHandler(this.GameOverScreen_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -102,5 +125,7 @@
         private System.Windows.Forms.Label patternLabel;
         private System.Windows.Forms.Label lengthLabel;
         private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label highScoreLabel;
     }
 }
